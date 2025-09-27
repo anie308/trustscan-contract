@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile":"npx hardhat compile --network reef",
+    "compile": "npx hardhat compile --network reef",
     "deploy": "npx hardhat run scripts/deploy.js --network reef",
     "deploy:verify": "npx hardhat run scripts/deploy_and_verify.js --network reef"
   },
@@ -19,7 +19,7 @@
     "solc": "^0.8.20"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.3.0",
+    "@openzeppelin/contracts": "^5.4.0",
     "axios": "^1.12.2"
   }
 }
